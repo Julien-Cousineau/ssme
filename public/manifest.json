@@ -1,0 +1,20 @@
+{
+  "short_name": "SSME-EEMS",
+  "name": "Interactive Map of Cumulative Marine Vessel Emissions in the Salish Sea - Carte interactive des émissions cumulatives des navires dans la mer des Salish",
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "favicon-mobile.png",
+      "type": "image/png",
+      "sizes": "144x144"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
