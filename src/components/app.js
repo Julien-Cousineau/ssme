@@ -85,7 +85,8 @@ class App extends React.Component {
                   lng={this.props.lng} 
                   label={<FormattedMessage id={'topheader.lng'} />}
                   items={
-                  [ {url:"https://canada.ca",text:<FormattedMessage id={'topheader.home'}/>,onClick:()=>null},
+                  [ {url:this.props.lng=='en'?'https://www.canada.ca/en/environment-climate-change/services/cumulative-effects/salish-sea-ecosystem/marine-emission-reductions.html':
+                  "https://www.canada.ca/fr/environnement-changement-climatique/services/effets-cumulatifs/ecosysteme-mer-salish/reduction-emissions-marines.html",text:<FormattedMessage id={'topheader.home'}/>,onClick:()=>null},
                     {text:<FormattedMessage id={'topheader.about'}/>,onClick:()=>this.setState({aboutVisible:true})},
                   ]
                     
